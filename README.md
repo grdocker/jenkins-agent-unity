@@ -1,3 +1,5 @@
-# template
+# jenkins-agent-unity
 
-This repository contains basic files needed to setup new image repository with tests and auto uploads
+Jenkins agent image, to run unity build on jenkins docker cloud
+Contains basic dependencies for running unity editor
+Editor itself must be mounted inside container from host, to avoid 4GB docker image size and complexities with unity installation inside docker image
